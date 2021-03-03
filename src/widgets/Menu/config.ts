@@ -75,20 +75,20 @@ export const links = [
       },
     ],
   },
-  {
-    label: "IFO",
-    icon: "IfoIcon",
-    items: [
-      {
-        label: "Next",
-        href: "/ifo",
-      },
-      {
-        label: "History",
-        href: "/ifo/history",
-      },
-    ],
-  },
+  // {
+  //   label: "IFO",
+  //   icon: "IfoIcon",
+  //   items: [
+  //     {
+  //       label: "Next",
+  //       href: "/ifo",
+  //     },
+  //     {
+  //       label: "History",
+  //       href: "/ifo/history",
+  //     },
+  //   ],
+  // },
   {
     label: "More",
     icon: "MoreIcon",
@@ -98,16 +98,8 @@ export const links = [
       //   href: "https://voting.pancakeswap.finance",
       // },
       {
-        label: "Github",
-        href: "https://github.com/goosedefi/",
-      },
-      {
-        label: "Docs",
-        href: "https://goosedefi.gitbook.io/goose-finance/",
-      },
-      {
         label: "Blog",
-        href: "https://goosefinance.medium.com/",
+        href: "https://oaktreefinance.medium.com/",
       },
     ],
   },
@@ -120,7 +112,7 @@ export const socials = [
     items: [
       {
         label: "English",
-        href: "https://t.me/goosedefi",
+        href: "https://t.me/oaktreefinance",
       },
       // {
       //   label: "Bahasa Indonesia",
@@ -164,7 +156,7 @@ export const socials = [
       // },
       {
         label: "Announcements",
-        href: "https://t.me/goosefinanceann",
+        href: "https://t.me/oaktreefinances",
       },
       // {
       //   label: "Whale Alert",
@@ -175,7 +167,7 @@ export const socials = [
   {
     label: "Twitter",
     icon: "TwitterIcon",
-    href: "https://twitter.com/FinanceGoose",
+    href: "https://twitter.com/OaktreeFinances",
   },
 ];
 
