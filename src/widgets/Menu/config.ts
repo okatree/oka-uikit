@@ -112,7 +112,7 @@ export const socials = [
     items: [
       {
         label: "English",
-        href: "https://t.me/oaktreefinance",
+        href: "https://t.me/oaktreefinances",
       },
       // {
       //   label: "Bahasa Indonesia",
