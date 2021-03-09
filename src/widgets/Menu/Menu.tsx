@@ -73,6 +73,7 @@ const Menu: React.FC<NavProps> = ({
   profile,
   children,
 }) => {
+  if (typeof isDark !== 'undefined') isDark = true;
   const { isXl } = useMatchBreakpoints();
   const isMobile = isXl === false;
   const [isPushed, setIsPushed] = useState(!isMobile);
