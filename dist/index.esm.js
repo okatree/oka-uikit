@@ -2292,6 +2292,7 @@ var PanelFooter = function (_a) {
             React.createElement(IconButton, { variant: "text", onClick: function () { return pushNav(true); } },
                 React.createElement(Icon$N, null))));
     }
+    console.log("isDark is " + isDark + ", langs are " + langs + ".");
     return (React.createElement(Container, null,
         React.createElement(SocialEntry, null,
             cakePriceUsd ? (React.createElement(PriceLink, { href: priceLink, target: "_blank" },
