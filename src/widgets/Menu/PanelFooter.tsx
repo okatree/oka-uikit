@@ -74,7 +74,6 @@ const PanelFooter: React.FC<Props> = ({
       </Container>
     );
   }
-  console.log(`isDark is ${isDark}, langs are ${langs}.`)
 
   return (
     <Container>

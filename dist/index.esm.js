@@ -2292,7 +2292,6 @@ var PanelFooter = function (_a) {
             React.createElement(IconButton, { variant: "text", onClick: function () { return pushNav(true); } },
                 React.createElement(Icon$N, null))));
     }
-    console.log("isDark is " + isDark + ", langs are " + langs + ".");
     return (React.createElement(Container, null,
         React.createElement(SocialEntry, null,
             cakePriceUsd ? (React.createElement(PriceLink, { href: priceLink, target: "_blank" },
@@ -2615,7 +2614,7 @@ var MobileOnlyOverlay = styled(Overlay)(templateObject_5 || (templateObject_5 = 
 var Menu = function (_a) {
     var _b;
     var account = _a.account, login = _a.login, logout = _a.logout, isDark = _a.isDark, toggleTheme = _a.toggleTheme, langs = _a.langs, setLang = _a.setLang, currentLang = _a.currentLang, cakePriceUsd = _a.cakePriceUsd, links = _a.links, priceLink = _a.priceLink, profile = _a.profile, children = _a.children;
-    if (typeof isDark !== 'undefined')
+    if (isDark === null)
         isDark = true;
     var isXl = useMatchBreakpoints().isXl;
     var isMobile = isXl === false;
