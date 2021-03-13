@@ -20,4 +20,5 @@ export { default as AuditIcon } from "./Audit";
 export { default as GrowIcon } from "./Grow";
 export { default as IdeaIcon } from "./Idea";
 export { default as DiversifyIcon } from "./Diversify";
+export { default as LaunchIcon } from "./Launch";
 export { default as MapIcon } from "./Map";
