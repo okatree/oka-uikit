@@ -1961,7 +1961,7 @@ var Icon$a = function (props) {
 };
 
 var Icon$9 = function (props) {
-    return (React.createElement(Svg, __assign({ viewBox: "0 0 24 24" }, props),
+    return (React.createElement(Svg, __assign({ viewBox: "-14 0 24 24" }, props),
         React.createElement("g", { transform: "matrix(0.05896806,0,0,0.05896806,-13.184007,0)", id: "g827" },
             React.createElement("path", { d: "M 51.140625,72.023438 H 327.27344 c 5.52343,0 10,-4.480469 10,-10 0,-5.523438 -4.47657,-10 -10,-10 H 51.140625 c -5.523437,0 -10,4.476562 -10,10 0,5.519531 4.476563,10 10,10 z m 0,0", id: "path2" }),
             React.createElement("path", { d: "M 96.789062,20 H 281.625 c 5.52344,0 10,-4.476562 10,-10 0,-5.523438 -4.47656,-10 -10,-10 H 96.789062 c -5.523437,0 -10,4.476562 -10,10 0,5.523438 4.476563,10 10,10 z m 0,0", id: "path4" }),
