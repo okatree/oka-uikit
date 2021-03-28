@@ -4,7 +4,7 @@ import { SvgProps } from "../../../components/Svg/types";
 
 const Icon: React.FC<SvgProps> = (props) => {
    return (
-      <Svg viewBox="1 1 24 24" {...props}>
+      <Svg viewBox="-1 -1 24 24" {...props}>
          <g
             transform="matrix(0.04296871,0,0,0.04296871,-9.8484459e-6,-3.5549456e-4)"
             id="g8143">
