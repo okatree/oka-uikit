@@ -26,3 +26,4 @@ export { default as MapIcon } from "./Map";
 export { default as AcornIcon } from "./Acorn";
 export { default as TreeIcon } from "./Tree";
 export { default as TreasureIcon } from "./Treasure";
+export { default as BattleIcon } from "./Battle";
